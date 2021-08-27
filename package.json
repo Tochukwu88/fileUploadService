@@ -1,0 +1,49 @@
+{
+   "name": "bamikifileupload",
+   "version": "1.0.0",
+   "description": "",
+   "main": "src/index.ts",
+   "scripts": {
+      "start": "ts-node src/index.ts",
+      "dev": "nodemon  --watch src  -e ts --exec npm run start",
+      "typeorm": "ts-node  ./node_modules/typeorm/cli.js"
+   },
+   "keywords": [],
+   "engines": {
+      "node": "14.x",
+      "npm": "6.x"
+   },
+   "author": "",
+   "license": "ISC",
+   "dependencies": {
+      "@types/aws-sdk": "^2.7.0",
+      "@types/imagemin": "^7.0.1",
+      "@types/jsonwebtoken": "^8.5.5",
+      "@types/multer": "^1.4.7",
+      "aws-sdk": "^2.975.0",
+      "dotenv": "^10.0.0",
+      "express": "^4.17.1",
+      "imagemin": "^8.0.1",
+      "imagemin-jpegtran": "^7.0.0",
+      "imagemin-pngquant": "^9.0.2",
+      "jsonwebtoken": "^8.5.1",
+      "morgan": "^1.10.0",
+      "multer": "^1.4.3",
+      "mysql": "^2.14.1",
+      "nodemon": "^2.0.12",
+      "pg": "^8.7.1",
+      "reflect-metadata": "^0.1.10",
+      "sharp": "^0.29.0",
+      "ts-node": "3.3.0",
+      "typeorm": "0.2.37",
+      "typescript": "3.3.3333"
+   },
+   "devDependencies": {
+      "@types/express": "^4.17.13",
+      "@types/imagemin-jpegtran": "^5.0.1",
+      "@types/morgan": "^1.9.3",
+      "@types/node": "^8.0.29",
+      "@types/sharp": "^0.28.5",
+      "ts-node": "3.3.0"
+   }
+}
